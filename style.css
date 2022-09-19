@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    font-family: 'Sen', sans-serif;
+    /* background: #1ba1f2; */
+    background: url('ocean1.jpg');
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
