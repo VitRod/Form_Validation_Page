@@ -49,10 +49,19 @@
           title="Please include 1 uppercase character, 1 lowercase character, and 1 number."
         />
       </div>
-
-
-
-
+      
+      <div class="form-group">
+        <label for="password2">Confirm Password*</label>
+        <input
+          type="password"
+          id="password2"
+          placeholder="Confirm Password"
+          required
+          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+          name="password"
+        />
+      </div>
+      <button type="submit">Register</button>
     </form>
     <!-- error/success msg -->
     <div class="message-container">
