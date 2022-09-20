@@ -86,4 +86,13 @@
   button:hover {
     filter: brightness(120%);
   }
+
+  button:active {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    transform: translateY(4px);
+  }
+  
+  button:focus {
+    outline: none;
+  }
   
