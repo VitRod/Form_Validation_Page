@@ -66,4 +66,24 @@
   input:invalid {
     border: 1px solid rgb(255, 0, 0);
   }
+
+  button {
+    cursor: pointer;
+    color: #fff;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    font-family: 'Sen', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.1s;
+  }
+
+  button:hover {
+    filter: brightness(120%);
+  }
   
