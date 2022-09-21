@@ -8,6 +8,7 @@ let isValid = false;
 let passwordsMatch = false;
 
 function validateForm() {
+    isValid = form.checkValidity();
 
 
 
