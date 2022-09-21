@@ -50,6 +50,13 @@ function storeFormData() {
 
 //do somenthing with user data
 console.log(user);
-
-
 }
+
+function processFormData(e) {
+    e.preventDefault();
+    validateForm();
+  
+    if (isValid && passwordsMatch) {
+      storeFormData();
+    }
+  }
