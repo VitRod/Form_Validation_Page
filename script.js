@@ -6,3 +6,12 @@ const message = document.getElementById('message');
 
 let isValid = false;
 let passwordsMatch = false;
+
+function validateForm() {
+
+
+
+
+
+
+}
