@@ -47,4 +47,9 @@ function storeFormData() {
         password: form.password.value,
       };
 
+
+//do somenthing with user data
+console.log(user);
+
+
 }
