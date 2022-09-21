@@ -36,8 +36,9 @@ function validateForm() {
         message.style.color = 'green';
         messageContainer.style.borderColor = 'green';
       }
+}
 
-
+function storeFormData() {
 
 
 }
