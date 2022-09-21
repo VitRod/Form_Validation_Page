@@ -17,6 +17,20 @@ function validateForm() {
         return;
       }
 
+      if (password1El.value === password2El.value) {
+        passwordsMatch = true;
+        password1El.style.borderColor = 'green';
+        password2El.style.borderColor = 'green';
+      } else {
+        passwordsMatch = false;
+        message.textContent = 'Make sure passwords match';
+        message.style.color = 'red';
+        messageContainer.style.borderColor = 'red';
+        password1El.style.borderColor = 'red';
+        password2El.style.borderColor = 'red';
+        return;
+      }
+
 
 
 
