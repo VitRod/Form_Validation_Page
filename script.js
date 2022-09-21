@@ -31,7 +31,11 @@ function validateForm() {
         return;
       }
 
-
+      if (isValid && passwordsMatch) {
+        message.textContent = 'Successfully Registered!';
+        message.style.color = 'green';
+        messageContainer.style.borderColor = 'green';
+      }
 
 
 
