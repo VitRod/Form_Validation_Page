@@ -60,3 +60,5 @@ function processFormData(e) {
       storeFormData();
     }
   }
+
+  form.addEventListener('submit', processFormData);
